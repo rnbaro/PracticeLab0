@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuildTestLab0\BuildBot.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Lab0BuildTest">
+      <HintPath>..\..\Lab0\Lab0BuildTest.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
